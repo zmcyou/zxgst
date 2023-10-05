@@ -12,3 +12,14 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+@media print {
+    .procedure {
+        display: flex;
+        flex-direction: row;
+        margin-top: -20px;
+        align-items: flex-end;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}

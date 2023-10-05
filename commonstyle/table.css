@@ -18,3 +18,10 @@ th {
     width: 240px;
     height: 175px;
 }
+
+@media print {
+    .tableimg {
+        width: 192px;
+        height: 140px;
+    }
+}
